@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Outfit:wght@100&display=swap');
+
+
+.footer {
+    background-color: #18242E;
+}
+
+.have-an-project {
+    color: #DAFC01;
+    font-size: 5vw;
+    font-weight: bol66der;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.detail-footer {
+    color: white;
+    background-color: #24323E;
+    margin: 0 10vw 0 10vw;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    padding: 30px;
+    font-size: smaller;
+    justify-content: space-evenly;
+}
+
+.icon-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-btn{
+    padding: 10px;
+    background-color: #DAFC01;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px;
+}
+
+.footer-btn:hover{
+    cursor: pointer;
+    background-color: #9eb50a;
+}
+
+@media screen and (max-width: 845px) {
+    .footer-nav{
+        /* padding: 15px; */
+        font-size: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .icon-email {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .have-an-project {
+        color: #DAFC01;
+        font-size: 8vw;
+    }
+}

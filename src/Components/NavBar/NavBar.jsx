@@ -1,5 +1,7 @@
 import React from "react";
 import "./NavBar.css";
+import SideNav from "./SideNav";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -11,24 +13,25 @@ const NavBar = () => {
               <img src="/assets/Font.png" alt="" width={100} />
             </li>
             <li>
-              <a href="">HOME</a>
+              <NavLink to="/">HOME</NavLink>
             </li>
             <li>
-              <a href="">SERVICES</a>
+              <NavLink to="/services">SERVICES</NavLink>
             </li>
             <li>
-              <a href="">PORTFOLIO</a>
+              <NavLink to="/portfolio">PORTFOLIO</NavLink>
             </li>
             <li>
-              <a href="">ABOUT US</a>
+              <NavLink to="/about-us">ABOUT US</NavLink>
             </li>
             <li>
-              <a href="">CONTACT US</a>
+              <NavLink to="/contact-us">CONTACT US</NavLink>
             </li>
 
             <li>
-              <button>Let's Talk</button>
+              <button className="nav-btn">Let's Talk</button>
             </li>
+            <SideNav />
           </ul>
         </nav>
       </div>

@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       <div className="design-semplified">
         <div>
-          <h2 className="title">DESIGN</h2>
+          <h2 className="title">Test</h2>
           <h2 className="title">SIMPLIFIED.</h2>
           <p id="contrary">
             Contrary to popular belief, Lorem Ipsum is not simply random text.
@@ -29,71 +29,72 @@ const Header = () => {
         </div>
       </div>
       <div className="header">
-        {/* <img src="/assets/brank.png" alt="" id="brank"/> */}
+        <img src="/assets/box.png" alt="" id="box" />
+        <img src="/assets/box.png" alt="" id="box2" />
         <h1 id="brand-title">
           WE <br /> MAKE BRAND <br /> SPECIAL
         </h1>
       </div>
-      <div className="services ">
-        <div>
-          <h1 style={{ color: "white", fontSize: "50px" }}>Our Services.</h1>
-          <p style={{ color: "white", fontSize: "20px" }}>
-            It is a long established fact that a reader will be distracted by
-            thereadble of page when looking <br /> as its layout. Lorem ipsum
-            dolor sit amet.
-          </p>
-        </div>
-        <div className="cards">
-          <div className="card">
-            <img
-              src="/assets/illustration 1.png"
-              alt=""
-              className="servicePic"
-            />
-            <div>Branding</div>
+      <div className="services">
+        <div id="services">
+          <div>
+            <h1 className="services-title">Our Services.</h1>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              thereadble of page when looking <br /> as its layout. Lorem ipsum
+              dolor sit amet.
+            </p>
           </div>
-          <div className="card">
-            <img
-              src="/assets/illustration 1.png"
-              alt=""
-              className="servicePic"
-            />
-            <div>Branding</div>
+          <div className="cards">
+            <div className="card">
+              <img
+                src="/assets/illustration 1.png"
+                alt=""
+                className="servicePic"
+              />
+              <div>Branding</div>
+            </div>
+            <div className="card">
+              <img
+                src="/assets/illustration 2.png"
+                alt=""
+                className="servicePic"
+              />
+              <div>Website Design</div>
+            </div>
+            <div className="card">
+              <img
+                src="/assets/illustration 3.png"
+                alt=""
+                className="servicePic"
+              />
+              <div>Website Development</div>
+            </div>
           </div>
-          <div className="card">
-            <img
-              src="/assets/illustration 1.png"
-              alt=""
-              className="servicePic"
-            />
-            <div>Branding</div>
-          </div>
-        </div>
-        <div className="lowerCards">
-          <div className="card">
-            <img
-              src="/assets/illustration 1.png"
-              alt=""
-              className="servicePic"
-            />
-            <div>Branding</div>
-          </div>
-          <div className="card" style={{ marginLeft: "30px" }}>
-            <img
-              src="/assets/illustration 1.png"
-              alt=""
-              className="servicePic"
-            />
-            <div>Branding</div>
+          <div className="lowerCards">
+            <div className="card">
+              <img
+                src="/assets/illustration 4.png"
+                alt=""
+                className="servicePic"
+              />
+              <div>Social Media Marketing</div>
+            </div>
+            <div className="card" >
+              <img
+                src="/assets/illustration 5.png"
+                alt=""
+                className="servicePic"
+              />
+              <div>Social Media Management</div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="header">
-        <div className="wideCard">
-          <div
-            className="div1"
-            style={{ display: "grid", gridTemplateColumns: "auto auto" , gap: "50px"}}
-          >
+
+      <div className="header" style={{height: 'fit-content'}}>
+        <div className="wideCard" >
+          <div className="div1">
             <div className="items">
               <h3 className="heading">5+</h3>
               <p className="headingDetails">
@@ -118,13 +119,22 @@ const Header = () => {
                 Client <br /> Satisfaction Rate
               </p>
             </div>
-
           </div>
           <div className="div2">
-            <h2 style={{fontFamily: "cursive"}}> We Bring Your</h2>
-            <h2 style={{fontFamily: "cursive"}}><span style={{color: "#DAFC01"}}>Vision</span> into <span style={{color: "#DAFC01"}}>Life</span></h2>
-            <p style={{width: "500px"}}>
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical.
+            <div className="bring-vision">
+              <h2> We Bring Your</h2>
+              <h2>
+                <span style={{ color: "#DAFC01" }}>Vision</span> into{" "}
+                <span style={{ color: "#DAFC01" }}>Life</span>
+              </h2>
+            </div>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old. Richard McClintock, a Latin
+              professor at Hampden-Sydney College in Virginia, looked up one of
+              the more obscure Latin words, consectetur, from a Lorem Ipsum
+              passage, and going through the cites of the word in classical.
             </p>
           </div>
         </div>

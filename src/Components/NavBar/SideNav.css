@@ -1,0 +1,32 @@
+
+
+.sideNav{
+    background-color: #18242E;
+    height: 100vh;
+}
+
+
+
+#MenuBtn{
+    display: none;
+    /* background-color: red; */
+}
+
+.sideNav-btn{
+    padding: 10px;
+    background-color: #DAFC01;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px;
+}
+
+.sideNav-btn:hover{
+    cursor: pointer;
+    background-color: #9eb50a;
+}
+
+@media screen and (max-width: 845px) {
+    #MenuBtn{
+        display: block;
+    }
+}
