@@ -17,6 +17,26 @@
     color: #DAFC01;  
 }
 
+#technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#technolgiesCards{
+    display: grid;
+    grid: row;
+    grid-template-columns: auto auto auto auto;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#tCard{
+    background-color: red;
+    color: white;
+    width: 15vw;
+    height: 15vh;
+}
+
 @media screen and (max-width: 845px) {
     .aboutDetails{
         padding: 10px 20px 10px 20px;   

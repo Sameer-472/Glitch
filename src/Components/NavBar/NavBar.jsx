@@ -1,13 +1,28 @@
-import React from "react";
+import React , {useState , useEffect }from "react";
 import "./NavBar.css";
 import SideNav from "./SideNav";
 import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
+  const [visible, setVisible] = useState(true);
+  useEffect(() => {
+    let prevScrollPos = window.pageYOffset;
+
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      prevScrollPos = currentScrollPos;
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div>
       <div className="navbar">
-        <nav>
+        <nav className={visible ? "nav": "hiddenNav"}>
           <ul>
             <li>
               <img src="/assets/Font.png" alt="" width={100} />

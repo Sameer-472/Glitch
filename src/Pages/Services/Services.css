@@ -1,0 +1,158 @@
+#offerWideRange{
+    color: white;
+    src: url("./assets/StretchPro.otf") format("opentype");
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 5vw;
+    text-align: start;
+}
+
+.servicesPage{
+    background-color:  #18242e;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: "Kanit", sans-serif;
+    font-family: "Outfit", sans-serif;
+    height: fit-content;
+}
+
+#servicesHeader{
+    background: #3a6186;  
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    background: linear-gradient(to right, #89253e, #3a6186); 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: "Kanit", sans-serif;
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+    padding: 100px 100px 30px 100px;
+    height: fit-content;
+}
+
+#servicesBody{
+    padding: 100px 100px 30px 100px;
+
+}
+
+#servicesText{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    width: 60vw;
+}
+
+#designDevelopmentMarketing{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+    font-weight: bolder;
+    margin-bottom: 15vh;
+}
+
+#design{
+    /* background-color: brown; */
+    padding: 30px;
+    margin-top: 30px;
+    transition: 2s linear;
+}
+
+#design:hover{
+    cursor: pointer;
+    
+}
+.downArrow{
+    transition: 2s linear;
+
+}
+#design:hover .downArrow{
+    background-color: white;
+    padding: 5px;
+    color: black;
+    border-radius: 50px;
+}
+
+#designArrow{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+
+#designTitle{
+    font-size: 2vw;
+}
+
+#designDetail{
+    font-weight: 400;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.14,0,0,1.01);
+    /* background-color: aqua; */
+}
+
+#designLogo{
+    background: #3a6186;  
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    background: linear-gradient(to right, #89253e, #3a6186); 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#design:hover #designDetail{
+    transform: translateY(-20px);
+}
+
+
+ #designDetail:hover{
+
+    /* margin-bottom: 30px; */
+    /* background-color: red; */
+ }
+
+ .designBar{
+    padding: 30px 0 30px 0;
+    color: white;
+    border-top: 2px solid white;
+    /* margin-top: 20px; */
+    /* border-top: white; */
+    transition: all .5s ease;
+ }
+
+ .designBar:hover{
+    background: #3a6186;  
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    background: linear-gradient(to right, #89253e, #3a6186); 
+    padding: 20px;
+    cursor: pointer;
+
+ }
+@media screen and (max-width: 845px) {
+    #designDevelopmentMarketing{
+        flex-direction: column;
+    }
+    #offerWideRange{
+        font-size: 10vw;
+        font-weight: bolder;
+    }
+    #designTitle{
+        font-size: 10vw;
+    }
+    #servicesHeader{
+        /* padding-top: 50px; */
+        padding: 50px 20px 20px 20px;
+    }
+    #servicesBody{
+        padding: 50px 20px 10px 20px;
+    }
+    #servicesText{
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        width: 90vw;
+    }    
+}

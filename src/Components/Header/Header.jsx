@@ -1,14 +1,40 @@
-import React from "react";
+import React , {useEffect} from "react";
 import "./Header.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import CountUp from 'react-countup';
+
+AOS.init();
 
 const Header = () => {
+  useEffect(() => {
+  }, []);
   return (
     <>
-      <div className="header">
-        <img src="/assets/Elements.png" alt="" id="elements" />
-        <img src="/assets/Font.png" alt="" id="glitch" />
+      <div className="header banner">
+        <div  
+                   data-aos="fade-right"
+                   data-aos-delay="0"
+                   data-aos-easing="ease-in-out-quart"
+                   data-aos-duration="1000"><span style={{color: '#DAFC01'}}>Design-driven </span><br />
+          <div style={{color: '#fff'}}>developement of your</div>
+          <div style={{color: '#DAFC01'}}>web product</div>
+        </div>
+        <div className="animator" data-aos="fade-left"
+                   data-aos-delay="0"
+                   data-aos-easing="ease-in-out-quart"
+                   data-aos-duration="1000">
+        <img src="/assets/box.png" alt="" id="elements1" />
+        <img src="/assets/Element.png" alt="" id="elements" />
+        <img src="/assets/box.png" alt="" id="elements2" />
+        </div>
+
+        {/* <img src="/assets/Elements.png" alt="" id="elements1" /> */}
+        {/* <img src="/assets/Elements.png" alt="" id="elements2" /> */}
+        {/* <h1>hello</h1> *6/}
+        {/* <img src="/assets/Font.png" alt="" id="glitch" /> */}
       </div>
-      <div className="design-semplified">
+      {/* <div className="design-semplified">
         <div>
           <h2 className="title">Test</h2>
           <h2 className="title">SIMPLIFIED.</h2>
@@ -28,13 +54,11 @@ const Header = () => {
           <img src="/assets/Element.png" alt="" id="element" />
         </div>
       </div>
-      <div className="header">
-        <img src="/assets/box.png" alt="" id="box" />
-        <img src="/assets/box.png" alt="" id="box2" />
-        <h1 id="brand-title">
-          WE <br /> MAKE BRAND <br /> SPECIAL
-        </h1>
-      </div>
+       */}
+      
+
+
+      {/* services  */}
       <div className="services">
         <div id="services">
           <div>
@@ -46,7 +70,10 @@ const Header = () => {
             </p>
           </div>
           <div className="cards">
-            <div className="card">
+            <div className="card"   data-aos="fade-right"
+                   data-aos-delay="0"
+                   data-aos-easing="ease-in-out-quart"
+                   data-aos-duration="1000">
               <img
                 src="/assets/illustration 1.png"
                 alt=""
@@ -54,7 +81,10 @@ const Header = () => {
               />
               <div>Branding</div>
             </div>
-            <div className="card">
+            <div className="card"   data-aos="fade-up"
+                   data-aos-delay="0"
+                   data-aos-easing="ease-in-out-quart"
+                   data-aos-duration="1000">
               <img
                 src="/assets/illustration 2.png"
                 alt=""
@@ -62,7 +92,10 @@ const Header = () => {
               />
               <div>Website Design</div>
             </div>
-            <div className="card">
+            <div className="card"   data-aos="fade-left"
+                   data-aos-delay="0"
+                   data-aos-easing="ease-in-out-quart"
+                   data-aos-duration="1000">
               <img
                 src="/assets/illustration 3.png"
                 alt=""
@@ -72,7 +105,10 @@ const Header = () => {
             </div>
           </div>
           <div className="lowerCards">
-            <div className="card">
+            <div className="card"   data-aos="fade-up"
+                   data-aos-delay="0"
+                   data-aos-easing="ease-in-out-quart"
+                   data-aos-duration="1000">
               <img
                 src="/assets/illustration 4.png"
                 alt=""
@@ -80,7 +116,10 @@ const Header = () => {
               />
               <div>Social Media Marketing</div>
             </div>
-            <div className="card" >
+            <div className="card"   data-aos="fade-down-right"
+                   data-aos-delay="0"
+                   data-aos-easing="ease-in-out-quart"
+                   data-aos-duration="1000">
               <img
                 src="/assets/illustration 5.png"
                 alt=""
@@ -92,29 +131,45 @@ const Header = () => {
         </div>
       </div>
 
+      <div className="header">
+        <img src="/assets/Elements.png" alt="" id="glitchElement" />
+        <img src="/assets/Font.png" alt="" id="glitch"   data-aos="flip-left"
+                   data-aos-delay="0"
+                   data-aos-easing="ease-in-out-quart"
+                   data-aos-duration="1000"/>
+      </div>
+
+            <div className="header">
+        {/* <img src="/assets/box.png" alt="" id="box" /> */}
+        {/* <img src="/assets/box.png" alt="" id="box2" /> */}
+        <h1 id="brand-title">
+          WE <br /> MAKE BRAND <br /> SPECIAL
+        </h1>
+      </div>
+
       <div className="header" style={{height: 'fit-content'}}>
-        <div className="wideCard" >
+        <div className="wideCard"  x >
           <div className="div1">
             <div className="items">
-              <h3 className="heading">5+</h3>
+              <h3 className="heading"> <CountUp enableScrollSpy={true}  start={0} end={5} duration={4} /> +</h3>
               <p className="headingDetails">
                 Years <br /> Experience
               </p>
             </div>
             <div className="items">
-              <h3 className="heading">350+</h3>
+              <h3 className="heading"> <CountUp enableScrollSpy={true}  start={0} end={350} duration={4} /> +</h3>
               <p className="headingDetails">
                 Happy <br /> Client
               </p>
             </div>
             <div className="items">
-              <h3 className="heading">700+</h3>
+              <h3 className="heading"> <CountUp enableScrollSpy={true} start={0} end={700} duration={4} />  +</h3>
               <p className="headingDetails">
                 Project <br /> Finished
               </p>
             </div>
             <div className="items">
-              <h3 className="heading">95%</h3>
+              <h3 className="heading"><CountUp enableScrollSpy={true}  start={0} end={95} duration={4} />  %</h3>
               <p className="headingDetails">
                 Client <br /> Satisfaction Rate
               </p>
