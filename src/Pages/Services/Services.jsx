@@ -11,7 +11,7 @@ AOS.init();
 const Services = () => {
   return (
     <div>
-      <div className=" servicesPage">
+      <div className="servicesPage">
         <div id="servicesHeader">
           <h1
             id="offerWideRange"
@@ -185,7 +185,7 @@ const Services = () => {
             <h1 id="offerWideRange">
               Marketing
             </h1>
-                <img width="100" id="designLogo" src="" alt="hello" />
+                <img width="100" id="designLogo" src="https://www.halo-lab.com/images/services/svg/design.svg" alt="hello" />
             </div >
             <p id="servicesText">
             Armed with diverse perspectives and experiences,our high-energy teams unite to develop world-class digital experiences that grow companies. From brand strategy to web development to digital marketing.

@@ -6,7 +6,7 @@ import List from "@mui/material/List";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./SideNav.css";
 import { ListItem, ListItemText, ListItemButton } from "@mui/material";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink , useNavigate } from "react-router-dom";
 
 export default function () {
   const [state, setState] = React.useState({
@@ -15,6 +15,8 @@ export default function () {
     bottom: false,
     right: false,
   });
+
+  var location = useNavigate();
   const toggleDrawer = (anchor, open) => (event) => {
     if (
       event &&
@@ -61,7 +63,7 @@ export default function () {
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton>
-              <NavLink to="/portfolio">PORTFOLIO</NavLink>
+              <NavLink to="/blogs">BLOGS</NavLink>
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
@@ -69,14 +71,11 @@ export default function () {
               <NavLink to="/about-us">ABOUT US</NavLink>
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton>
-              <NavLink to="/contact-us">CONTACT US</NavLink>
-            </ListItemButton>
-          </ListItem>
         </List>
       </Box>
-      <button className="sideNav-btn">Lets Talk</button>
+      <NavLink to="contact-us">
+      </NavLink>
+        <button className="sideNav-btn" onClick={()=> location('/contact-us')}>Lets Talk</button>
     </Box>
   );
 

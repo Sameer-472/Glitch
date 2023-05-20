@@ -44,7 +44,6 @@ background: linear-gradient(to right, #89253e, #3a6186);
   color: white;
   font-family: "Kanit", sans-serif;
   font-family: "Outfit", sans-serif;
-  /* font-weight: bolder; */
   font-size: 50px;
 }
 
@@ -52,11 +51,11 @@ background: linear-gradient(to right, #89253e, #3a6186);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* align-items: center; */
   font-family: "Kanit", sans-serif;
   font-family: "Outfit", sans-serif;
   background-color: #18242e;
-  padding: 100px;
+  padding: 30px 120px 30px 120px;
+  text-align: start;
   height: fit-content;
 }
 
@@ -70,10 +69,8 @@ background: linear-gradient(to right, #89253e, #3a6186);
 }
 
 .cards {
-  /* display: grid; */
   display: flex;
   flex-direction: row;
-  /* grid-template-columns: auto auto auto; */
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
@@ -141,7 +138,7 @@ background: linear-gradient(to right, #89253e, #3a6186);
   }
 
 #glitchElement{
-    width: 400px;
+    width: 300px;
     position: relative;
   animation: elementsAnimation 2s ease-in infinite alternate;
 
@@ -205,14 +202,15 @@ background: linear-gradient(to right, #89253e, #3a6186);
 .wideCard {
   background-color: #18242e;
   border-radius: 25px;
-  /* padding-left: 100px; */
-  /* padding-right: 100px; */
+  padding: 100px 70px 100px 70px;
   width: 90vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: fit-content;
-  margin: 50px 20px 50px 20px;
+  margin: 50px;
+    font-family: "Kanit", sans-serif;
+  font-family: "Outfit", sans-serif;
 
   /* height: fit-content; */
   flex-wrap: wrap;
@@ -274,7 +272,7 @@ background: linear-gradient(to right, #89253e, #3a6186);
   }
 
   .services {
-    /* padding: 40px; */
+    padding: 40px;
     height: fit-content;
   }
 
@@ -283,7 +281,7 @@ background: linear-gradient(to right, #89253e, #3a6186);
   }
 
   #glitch {
-    width: 300px;
+    width: 250px;
   }
 
   #elements {
@@ -317,8 +315,6 @@ background: linear-gradient(to right, #89253e, #3a6186);
   }
 
   .wideCard {
-    /* width: 70vw; */
-    /* margin-top: 700px; */
     padding: 10px 0 10px 0;
   }
 
@@ -334,11 +330,13 @@ background: linear-gradient(to right, #89253e, #3a6186);
   }
 
   .bring-vision {
+    text-align: start;
     font-size: 20px;
   }
 
   .div2 p {
-    font-size: small;
+    text-align: start;
+    /* font-size: small; */
   }
 
   .animator{

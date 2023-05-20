@@ -12,14 +12,48 @@
     margin-top: 30px;
 }
 
+.contact{
+    padding: 100px 100px 30px 100px;
+    background-color: #24323E;
+    /* width: 100vw; */
+}
+
+.contactPage{
+    height: fit-content;
+    background: #3a6186;  
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    background: linear-gradient(to right, #89253e, #3a6186);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    padding: 70px 0px 70px 0px;
+}
+
+.MuiInputBase-input{
+    color: white;
+}
 
 input{
-    width: 70vw;
+    width: 20vw;
     height: 5vh;
-    border-radius: 15px;
     margin-top: 3vh;
     border-style: none;
+    margin-left: 20px;
+    background-color: #24323E;
+    border-bottom: 1px solid white;
+    color: white;
+    /* border: none; */
 }
+
+.upperInput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: red; */
+    /* height: 200px;     */
+}
+
 
 .submit{
     padding: 10px 30px 10px 30px;
@@ -27,4 +61,100 @@ input{
     border-radius: 10px;
     border-style: none;
     margin: 20px;
+    font-weight: bold;
+}
+
+.submit:hover{
+    background-color: #a5bd06;
+    cursor: pointer;
+}
+
+.attachedFile:hover{
+    cursor: pointer;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: teal; */
+    width: 40vw;
+    height: 300px;
+    padding: 120 px 10px 120px 10px;
+    margin: 0 20px 0 20px;
+    color: white;
+}
+
+.lowerInput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clientReview{
+    background-color: #24323E;
+    border-radius: 10px;
+    width: 30vw;
+    height: 300px;
+    padding: 30px 10px 10px 50px;
+    margin: 30px;
+    color: white;
+    text-align: left;
+}
+.review{
+    text-align: start;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+}
+.clientHeading{
+    font-family: "Kanit", sans-serif;
+    font-family: "Outfit", sans-serif;    
+}
+
+.discussProject{
+    src: url("./assets/StretchPro.otf") format("opentype");
+    font-weight: bolder;
+    font-style: normal;
+    font-family: "Kanit", sans-serif;
+    font-family: "Outfit", sans-serif;
+}
+
+.outlined-color .MuiOutlinedInput-notchedOutline {
+    border-color: white; /* Replace with your desired outline color */
+  }
+
+
+@media screen and (max-width: 845px) {
+    .contact{
+        padding: 50px 20px 20px 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+    .contactPage{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .contactForm{
+        width: fit-content;
+    }
+    .clientReview{
+        background-color: #24323E;
+        border-radius: 10px;
+        width: fit-content;
+        height: fit-content;
+        padding: 30px 10px 10px 30px;
+        margin: 150px 30px 30px 30px;
+    }
+    .review{
+        text-align: start;
+        font-size: 4vw;
+        /* font-size: 10px; */
+    }
+    .input{
+        padding-top: 20px;
+    }
+    .lowerInput{
+        margin-top: 10px;
+    }
 }

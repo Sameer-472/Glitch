@@ -1,3 +1,22 @@
+.aboutUs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: "Kanit", sans-serif;
+    font-family: "Outfit", sans-serif;
+    background-color: #18242e;
+    padding: 100px;
+    height: fit-content;
+  }
+
+  .aboutUs p {
+    color: white;
+    font-size: 20px;
+    text-align: start;
+  }
+
+
 .aboutPage{
     display: flex;
     flex-direction: column;
@@ -23,6 +42,20 @@
     justify-content: space-around;
 }
 
+#selections{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+#selections div{
+    margin-top: 10px;
+}
+
+.option:hover{
+    cursor: pointer;
+}
+
 #technolgiesCards{
     display: grid;
     grid: row;
@@ -31,15 +64,46 @@
     gap: 15px;
 }
 #tCard{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #24323e;
     color: white;
-    width: 15vw;
-    height: 15vh;
+    border-radius: 10px;
+    width: 18vw;
+    height: 25vh;
+}
+
+.active{
+    color: #DAFC01;
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 845px) {
     .aboutDetails{
         padding: 10px 20px 10px 20px;   
         font-size: small;
-    }         
+    }    
+    .aboutUs{
+        padding: 50px 20px 20px 20px;
+    } 
+    #selections{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100vw;
+    } 
+    #technolgiesCards{
+        margin-top: 30px;
+        display: grid;
+        grid: row;
+        grid-template-columns: auto auto ;
+        gap: 15px;
+    }
+    #tCard{
+        width: 40vw;
+        height: 25vh;
+    }   
 }
