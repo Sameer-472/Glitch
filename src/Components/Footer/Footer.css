@@ -17,15 +17,17 @@
 .detail-footer {
     color: white;
     background-color: #24323E;
-    margin: 0 10vw 0 10vw;
+    margin: 0 5vw 0 5vw;
     border-radius: 15px;
     padding: 30px;
+    font-size: larger;
+    font-family: "Kanit", sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 .footer-nav {
     display: flex;
     padding: 30px;
-    font-size: smaller;
     justify-content: space-evenly;
 }
 

@@ -3,7 +3,7 @@ import "./Header.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import CountUp from "react-countup";
-import Button from "../Button3d/Button";
+// import Button from "../Button3d/Button";
 
 AOS.init();
 
@@ -31,7 +31,6 @@ const Header = () => {
             <div style={{ color: "#fff" }}>developement of your</div>
             <div style={{ color: "#DAFC01" }}>web product</div>
           </div>
-          <Button />
         </div>
         <div
           className="animator"
@@ -92,7 +91,7 @@ const Header = () => {
             </div>
             <div
               className="card"
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-aos-delay="0"
               data-aos-easing="ease-in-out-quart"
               data-aos-duration="1000"

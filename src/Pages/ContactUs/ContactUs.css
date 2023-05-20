@@ -69,9 +69,16 @@ input{
     cursor: pointer;
 }
 
+.attachedFile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .attachedFile:hover{
     cursor: pointer;
 }
+
 
 .contactForm{
     display: flex;

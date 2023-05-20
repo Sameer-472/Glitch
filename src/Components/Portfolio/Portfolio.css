@@ -18,10 +18,13 @@
 }
 
 
+
 .portfolio-btns{
     display: flex;
     flex-wrap: wrap;
 }
+
+
 
 .portfolio-buttons{
     padding: 10px;
@@ -31,9 +34,19 @@
     margin: 10px;
 }
 
+.portfolioBtnActive{
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #DAFC01;
+    border-radius: 10px;
+    color: #DAFC01;
+    /* border-style: none; */
+    margin: 10px;
+}
+
 .portfolio-buttons:hover{
     cursor: pointer;
-    background-color: #9eb50a;
+    /* background-color: #9eb50a; */
 }
 .portfolio-cards{
     display: grid;

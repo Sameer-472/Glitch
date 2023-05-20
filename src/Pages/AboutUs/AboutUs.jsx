@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutUs.css";
 import { useState } from "react";
-0;
+
 const AboutUs = () => {
   const [state, setstate] = useState("frontend");
 
@@ -209,7 +209,10 @@ const AboutUs = () => {
 
   return (
     <div className="aboutUs">
-      <div id="aboutUsBody">
+      <div id="aboutUsBody"  data-aos="fade-up"
+                    data-aos-delay="0"
+                    data-aos-easing="ease-in-out-quart"
+                    data-aos-duration="500">
         <h1 id="offerWideRange">
           OUR <br /> TECHNOLOGIES
         </h1>

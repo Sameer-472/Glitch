@@ -10,7 +10,10 @@ const Portfolio = () => {
   return (
     <div>
       <div className="portfolio">
-        <Card sx={{ maxWidth: 1200 , ml: 2 , mr: 2 , mt: 5}}>
+        <Card sx={{ maxWidth: 1200 , ml: 2 , mr: 2 , mt: 5}}  data-aos="fade-up"
+                    data-aos-delay="0"
+                    data-aos-easing="ease-in-out-quart"
+                    data-aos-duration="500">
           <CardActionArea>
             <CardMedia
               component="img"
@@ -29,7 +32,10 @@ const Portfolio = () => {
             </CardContent>
           </CardActionArea>
         </Card>
-        <Card sx={{ maxWidth: 1200 , ml: 2 , mr: 2 , mt: 5}}>
+        <Card sx={{ maxWidth: 1200 , ml: 2 , mr: 2 , mt: 5}}  data-aos="fade-up"
+                    data-aos-delay="0"
+                    data-aos-easing="ease-in-out-quart"
+                    data-aos-duration="500">
           <CardActionArea>
             <CardMedia
               component="img"
@@ -48,7 +54,10 @@ const Portfolio = () => {
             </CardContent>
           </CardActionArea>
         </Card>
-        <Card sx={{ maxWidth: 1200 , ml: 2 , mr: 2 , mt: 5}}>
+        <Card sx={{ maxWidth: 1200 , ml: 2 , mr: 2 , mt: 5}}  data-aos="fade-up"
+                    data-aos-delay="0"
+                    data-aos-easing="ease-in-out-quart"
+                    data-aos-duration="500">
           <CardActionArea>
             <CardMedia
               component="img"
