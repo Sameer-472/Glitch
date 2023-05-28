@@ -18,40 +18,32 @@
     /* width: 100vw; */
 }
 
+#inputText::placeholder{
+    color: white;
+}
+
 .contactPage{
     height: fit-content;
-    background: #3a6186;  
+    /* background: #3a6186;  
     background: -webkit-linear-gradient(to right, #89253e, #3a6186);
-    background: linear-gradient(to right, #89253e, #3a6186);
+    background: linear-gradient(to right, #89253e, #3a6186); */
+  background-color: #18242e;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     border-radius: 30px;
-    padding: 70px 0px 70px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 .MuiInputBase-input{
     color: white;
 }
 
-input{
-    width: 20vw;
-    height: 5vh;
-    margin-top: 3vh;
-    border-style: none;
-    margin-left: 20px;
-    background-color: #24323E;
-    border-bottom: 1px solid white;
-    color: white;
-    /* border: none; */
-}
+
 
 .upperInput{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    /* background-color: red; */
-    /* height: 200px;     */
 }
 
 
@@ -84,11 +76,11 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* background-color: teal; */
     width: 40vw;
     height: 300px;
-    padding: 120 px 10px 120px 10px;
-    margin: 0 20px 0 20px;
+    padding: 0px 70px 0px 70px;
+    /* padding: 10px 10px 120px 10px; */
+    /* margin: 0 20px 0 20px; */
     color: white;
 }
 
@@ -100,6 +92,7 @@ input{
 
 .clientReview{
     background-color: #24323E;
+    /* background-color: #DAFC01; */
     border-radius: 10px;
     width: 30vw;
     height: 300px;
@@ -125,6 +118,7 @@ input{
     font-style: normal;
     font-family: "Kanit", sans-serif;
     font-family: "Outfit", sans-serif;
+    text-align: start;
 }
 
 .outlined-color .MuiOutlinedInput-notchedOutline {

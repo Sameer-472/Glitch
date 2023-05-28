@@ -16,37 +16,41 @@ const Testimonal = () => {
         interval={6100}
       >
         <div>
-          <img src="./assets/profile.png" width={100}/>
+          <img src="./assets/profile.png" width={50} id="profile"/>
           <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
+            <h2>Shirley Fultz</h2>
+            <h3>CEO</h3>
+            <div style={{color: 'black'}}>Glitch AF</div>
             <p>
               It's freeing to be able to catch up on customized news and not be
               distracted by a social media element on the same site
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas consectetur magni voluptates ducimus eveniet pariatur minima, aliquam, at fugiat laborum, earum officia corrupti dolorem error itaque autem magnam est necessitatibus.
             </p>
           </div>
         </div>
-
         <div>
-          <img src="./assets/profile.png" width={100}/>
+          <img src="./assets/profile.png" width={50} id="profile"/>
           <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
+            <h2><b>Shirley Fultz</b></h2>
+            <h3>CEO</h3>
+            <div style={{color: 'black'}}>Glitch AF</div>
             <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
+              It's freeing to be able to catch up on customized news and not be
+              distracted by a social media element on the same site
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas consectetur magni voluptates ducimus eveniet pariatur minima, aliquam, at fugiat laborum, earum officia corrupti dolorem error itaque autem magnam est necessitatibus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam exercitationem labore maiores magnam eum quidem aut cupiditate veniam voluptates atque.
             </p>
           </div>
         </div>
-
         <div>
-          <img src="./assets/profile.png" width={100}/>
+          <img src="./assets/profile.png" width={50} id="profile"/>
           <div className="myCarousel">
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
+            <h2>Shirley Fultz</h2>
+            <h3>CEO</h3>
+            <div style={{color: 'black'}}>Glitch AF</div>
             <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
+              It's freeing to be able to catch up on customized news and not be
+              distracted by a social media element on the same site
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas consectetur magni voluptates ducimus eveniet pariatur minima, aliquam, at fugiat laborum, earum officia corrupti dolorem error itaque autem magnam est necessitatibus.
             </p>
           </div>
         </div>

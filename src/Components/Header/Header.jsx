@@ -159,17 +159,17 @@ const Header = () => {
       </div>
 
       <div className="header" style={{ height: "fit-content" }}>
-        <div className="wideCard" x>
+        <div className="wideCard">
           <div className="div1">
             <div className="items">
               <h3 className="heading">
-                {" "}
+                
                 <CountUp
                   enableScrollSpy={true}
                   start={0}
                   end={5}
                   duration={4}
-                />{" "}
+                />
                 +
               </h3>
               <p className="headingDetails">
@@ -178,13 +178,12 @@ const Header = () => {
             </div>
             <div className="items">
               <h3 className="heading">
-                {" "}
                 <CountUp
                   enableScrollSpy={true}
                   start={0}
                   end={350}
                   duration={4}
-                />{" "}
+                />
                 +
               </h3>
               <p className="headingDetails">
@@ -193,13 +192,13 @@ const Header = () => {
             </div>
             <div className="items">
               <h3 className="heading">
-                {" "}
+                
                 <CountUp
                   enableScrollSpy={true}
                   start={0}
                   end={700}
                   duration={4}
-                />{" "}
+                />
                 +
               </h3>
               <p className="headingDetails">
@@ -213,7 +212,7 @@ const Header = () => {
                   start={0}
                   end={95}
                   duration={4}
-                />{" "}
+                />
                 %
               </h3>
               <p className="headingDetails">

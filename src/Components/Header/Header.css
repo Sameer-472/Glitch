@@ -42,9 +42,11 @@ background: linear-gradient(to right, #89253e, #3a6186);
 
 .services-title {
   color: white;
-  font-family: "Kanit", sans-serif;
-  font-family: "Outfit", sans-serif;
-  font-size: 50px;
+  font-family: "Stretch Pro";
+  src: url("./assets/StretchPro.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
 }
 
 .services {
@@ -61,6 +63,7 @@ background: linear-gradient(to right, #89253e, #3a6186);
 
 .services P {
   color: white;
+  padding: 25px 0px;
   font-size: 20px;
 }
 
@@ -203,15 +206,12 @@ background: linear-gradient(to right, #89253e, #3a6186);
   background-color: #18242e;
   border-radius: 25px;
   padding: 100px 70px 100px 70px;
-  width: 90vw;
+  width: 70vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: fit-content;
   margin: 50px;
-    font-family: "Kanit", sans-serif;
-  font-family: "Outfit", sans-serif;
-
   /* height: fit-content; */
   flex-wrap: wrap;
 }
@@ -221,31 +221,49 @@ background: linear-gradient(to right, #89253e, #3a6186);
 }
 
 .heading {
-  font-size: 40px;
+  text-align: start;
+  font-family: "Stretch Pro";
+  src: url("./assets/StretchPro.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.headingDetails{
+  font-family: cursive;
+  text-align: start;
 }
 
 .div1 {
   display: grid;
   grid-template-columns: auto auto;
   gap: 50px;
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 
 .div2 {
   color: white;
   /* margin: 40px; */
   width: 300px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   /* height: 300px; */
   /* background-color: #DAFC01; */
 }
 
 .bring-vision {
-  font-size: 25px;
+  
+  font-family: "Stretch Pro";
+  src: url("./assets/StretchPro.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  text-align: start;
 }
 
 .div2 p {
+  font-family: cursive;
   font-size: 15px;
+  text-align: start;
 }
 
 #box {
@@ -315,7 +333,15 @@ background: linear-gradient(to right, #89253e, #3a6186);
   }
 
   .wideCard {
-    padding: 10px 0 10px 0;
+    padding: 30px;
+  }
+
+  .heading{
+    font-size: 8vw;
+  }
+  .headingDetails{
+    font-size: 5vw;
+    /* text-align: start; */
   }
 
   .div1 {
@@ -326,7 +352,8 @@ background: linear-gradient(to right, #89253e, #3a6186);
     margin-top: 30px;
     color: white;
     /* margin: 40px; */
-    width: 60vw;
+    width: fit-content;
+    /* width: 60vw; */
   }
 
   .bring-vision {
