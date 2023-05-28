@@ -52,6 +52,7 @@ background: linear-gradient(to right, #89253e, #3a6186);
 .services {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   font-family: "Kanit", sans-serif;
   font-family: "Outfit", sans-serif;
@@ -59,6 +60,13 @@ background: linear-gradient(to right, #89253e, #3a6186);
   padding: 30px 120px 30px 120px;
   text-align: start;
   height: fit-content;
+}
+
+#services{
+  /* background-color: rebeccapurple; */
+  /* width: 80vw; */
+
+  /* padding: 100px 70px 100px 70px; */
 }
 
 .services P {
@@ -77,8 +85,8 @@ background: linear-gradient(to right, #89253e, #3a6186);
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  gap: 40px;
-  margin: 30px;
+  gap: 50px;
+  margin: 30px 0px;
 }
 
 .card {

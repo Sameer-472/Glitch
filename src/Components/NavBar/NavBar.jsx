@@ -25,7 +25,7 @@ const NavBar = () => {
         <nav className={visible ? "nav" : "hiddenNav"}>
           <ul>
             <li>
-              <img src="/assets/Font.png" alt="" width={100} />
+              <img src="/assets/Font.png" alt="" width={130} />
             </li>
             <li>
               <NavLink to="/">HOME</NavLink>

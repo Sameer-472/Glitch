@@ -1,12 +1,21 @@
 
 .portfolio{
+    display: flex;
     flex-direction: column;
     padding: 100px;
     justify-content: center;
+    align-items: center;
     height: fit-content;
     background-color: #18242E;
     height: fit-content;
+    text-align: start;
     
+}
+
+#portfolio{
+    width: 80vw;
+    /* background-color: rebeccapurple; */
+    /* padding: 100px 70px 100px 70px; */
 }
 
 .our-portfolio{

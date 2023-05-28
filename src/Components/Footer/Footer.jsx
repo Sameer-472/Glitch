@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <button className="footer-btn">Get a Qoute</button>
       <div className="detail-footer">
-          <div>GLITCH AF</div>
+          <div className="footerGlitchAF">GLITCH AF</div>
           <div className="footer-nav">
             <a href="#">Home</a>
             <a href="#">Services</a>
@@ -27,9 +27,9 @@ const Footer = () => {
             <InstallMobileOutlined/>
             <WhatshotOutlined/>
             </div>
-            <div>
-              <span>Hello@gmail.com</span>
-              <span>+0213312596324</span>
+            <div className="emailNumber">
+              <div>Hello@gmail.com</div>
+              <div>+0213312596324</div>
             </div>
           </div>
           <div>@copyright</div>
