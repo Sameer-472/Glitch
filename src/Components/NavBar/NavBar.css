@@ -3,6 +3,7 @@
 nav{
     position: fixed;
     background-color: #24323E;
+    z-index: 55;
     /* display: block; */
     width: 100%;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);

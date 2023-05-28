@@ -151,8 +151,14 @@ background: linear-gradient(to right, #89253e, #3a6186);
 #glitchElement{
     width: 300px;
     position: relative;
-  animation: elementsAnimation 2s ease-in infinite alternate;
+     animation: elementsAnimation 2s ease-in infinite alternate;
+}
 
+#box1{
+  position: absolute;
+  width: 150px;
+  margin-right: 40rem;
+  margin-bottom: 26rem;
 }
 
   @keyframes element1Animation {
@@ -282,10 +288,10 @@ background: linear-gradient(to right, #89253e, #3a6186);
 }
 
 #box2 {
-  width: 286px; 
-  position: absolute;
-  top: 100vh;
-  left: 8vw;
+  width: 254px;
+    position: absolute;
+    margin-bottom: 15rem;
+    margin-left: 19rem;
 }
 
 @media screen and (max-width: 845px) {
@@ -320,18 +326,24 @@ background: linear-gradient(to right, #89253e, #3a6186);
   }
 
   #box {
-    width: 100px;
+    /* width: 100px; */
     position: absolute;
     top: 83rem;
     left: 1rem;
   }
 
+  #boxThree{
+    background-color: #89253e;
+    position: absolute;
+  }
+
   #box2 {
     width: 100px;
-    position: relative;
+    position: absolute;
     top: 70rem;
-    left: 15rem;
+    /* left: 200rem; */
   }
+
 
   .header {
     max-width: 100vw;

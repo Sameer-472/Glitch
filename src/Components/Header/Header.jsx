@@ -149,13 +149,14 @@ const Header = () => {
           data-aos-duration="1000"
         />
       </div>
-
       <div className="header">
+      <img src="./assets/box.png" alt="" id="box1"/>    
+      <img src="./assets/box.png" alt="" id="box2"/>    
         {/* <img src="/assets/box.png" alt="" id="box" /> */}
-        {/* <img src="/assets/box.png" alt="" id="box2" /> */}
         <h1 id="brand-title">
           WE <br /> MAKE BRAND <br /> SPECIAL
         </h1>
+      {/* <img src="./assets/box2.png" alt="" id="box3"/>     */}
       </div>
 
       <div className="header" style={{ height: "fit-content" }}>
