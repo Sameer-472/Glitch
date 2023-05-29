@@ -1,10 +1,10 @@
 
 .portfolio{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 100px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     height: fit-content;
     background-color: #18242E;
     height: fit-content;

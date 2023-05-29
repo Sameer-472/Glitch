@@ -1,0 +1,33 @@
+.blogsBtns{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.blogBtn{
+    padding: 5px;
+    background-color: #DAFC01;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.blogBtn:hover{
+    background-color: #bed42c;
+    cursor: pointer;
+}
+
+.mobileView{
+    display: none;
+}
+
+@media screen and (max-width: 845px) {
+    .discoverBtns{
+        display: none;
+    }
+    .mobileView{
+        display: block;
+    }
+    .desktopView{
+        display: none;
+    }
+}
