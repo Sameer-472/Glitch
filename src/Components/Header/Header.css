@@ -22,7 +22,7 @@ background: linear-gradient(to right, #89253e, #3a6186);
 
 .banner {
   font-size: 4vw;
-  font-family: "Stretch Pro";
+  font-family: "Stretch Pro" , "Outfit";
   src: url("./assets/StretchPro.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
@@ -341,6 +341,7 @@ background: linear-gradient(to right, #89253e, #3a6186);
     width: 100px;
     position: absolute;
     top: 70rem;
+    display: none;
     /* left: 200rem; */
   }
 

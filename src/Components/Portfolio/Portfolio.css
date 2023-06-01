@@ -1,10 +1,9 @@
-
 .portfolio{
     display: flex;
     flex-direction: row;
     padding: 100px;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     height: fit-content;
     background-color: #18242E;
     height: fit-content;
@@ -27,13 +26,10 @@
 }
 
 
-
 .portfolio-btns{
     display: flex;
     flex-wrap: wrap;
 }
-
-
 
 .portfolio-buttons{
     padding: 10px;
@@ -98,5 +94,10 @@
     
     #portfolio-card-img{
         width: 150px;
+    }
+    #portfolio{
+        width: fit-content;
+        /* background-color: rebeccapurple; */
+        /* padding: 100px 70px 100px 70px; */
     }
 }

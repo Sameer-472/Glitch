@@ -1,7 +1,7 @@
 import { FacebookOutlined , InstallMobileOutlined , WhatshotOutlined } from "@mui/icons-material";
 import React from "react";
 import './Footer.css';
-
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,11 +15,11 @@ const Footer = () => {
       <div className="detail-footer">
           <div className="footerGlitchAF">GLITCH AF</div>
           <div className="footer-nav">
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">About us</a>
-            <a href="#">Contact us</a>
+            <Link to="/">Home</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/portfolio">Portfolio</Link>
+            <Link to="about-us">About us</Link>
+            <Link to="/contact-us">Contact us</Link>
           </div>
           <div className="icon-email">
             <div>
